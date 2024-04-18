@@ -12,3 +12,4 @@
 /Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.pdb
 /Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.genruntimeconfig.cache
 /Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/ref/HappyNewYear.dll
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.sourcelink.json

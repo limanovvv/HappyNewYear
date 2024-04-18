@@ -1,25 +1,35 @@
 namespace HappyNewYear;
 
 /// <summary>
-/// базовый класс с общими полями Имя Цена Вес
+/// базовый абстрактный класс Сладость
 /// </summary>
-public class Sweet
+public abstract class Sweet
 {
+    /// <summary>
+    /// поля Имя Вес Цена
+    /// </summary>
     public string Name;
-    public double Price;
     public double Weight;
+    public int Price;
+    
 
+    /// <summary>
+    /// конструтор с параметрами 
+    /// </summary>
+    /// <param name="name"> имя </param>
+    /// <param name="weight"> вес </param>
+    /// <param name="price"> цена </param>
     public Sweet(string name, double weight, double price)
     {
         Name = name;
         Weight = weight;
-        Price = price;
+        Price = (int)price;
     }
     
-    // виртуальный метод вывода инфы о сладости 
-    // переопределяем в классах-наследниках
-    public virtual string GetInfo()
-    {
-        return $"{Name} -> Вес: {Weight} г, Цена: {Price} руб";
-    }
+    /// <summary>
+    /// абстрактный метод вывода инфы о сладости
+    /// реализуем в классах-наследниках
+    /// </summary>
+    /// <returns></returns>
+    public abstract string GetInfo();
 }
