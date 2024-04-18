@@ -1,0 +1,14 @@
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/bin/Debug/net8.0/HappyNewYear
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/bin/Debug/net8.0/HappyNewYear.deps.json
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/bin/Debug/net8.0/HappyNewYear.runtimeconfig.json
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/bin/Debug/net8.0/HappyNewYear.dll
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/bin/Debug/net8.0/HappyNewYear.pdb
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.AssemblyInfoInputs.cache
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.AssemblyInfo.cs
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.csproj.CoreCompileInputs.cache
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.dll
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/refint/HappyNewYear.dll
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.pdb
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/HappyNewYear.genruntimeconfig.cache
+/Users/valero/RiderProjects/HappyNewYear/HappyNewYear/obj/Debug/net8.0/ref/HappyNewYear.dll
