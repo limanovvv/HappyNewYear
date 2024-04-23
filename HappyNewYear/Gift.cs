@@ -11,7 +11,7 @@ public class Gift
     /// <summary>
     /// лист для хранения сладостей
     /// </summary>
-    public static List<Sweet> sweets = new List<Sweet>();
+    public List<Sweet> sweets = new List<Sweet>();
 
     /// <summary>
     /// метод добавления сладости в лист
@@ -55,10 +55,11 @@ public class Gift
     /// сначала сортируем по алфавиту для имен сладостей
     /// только потом вывод
     /// </summary>
-    public void PrintSweets()
+   
+    
+    public List<string> GetSweetsInfo()
     {
-        sweets.Sort((x,y) => string.Compare(x.Name, y.Name));
-        sweets.Select(x => x.GetInfo());
+        return sweets.Select(e => e.GetInfo()).ToList();
     }
     
 }

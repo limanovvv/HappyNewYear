@@ -16,10 +16,23 @@ class Program
         gift.AddSweet(jellybean);
 
         Console.WriteLine("Информация о сладостях в подарке:");
-        
-        gift.PrintSweets();
+        foreach (var element in gift.GetSweetsInfo())
+        {
+            Console.WriteLine(element);
+        }
 
         Console.WriteLine($"Общий вес подарка: {gift.GetTotalWeight()} г");
         Console.WriteLine($"Общая стоимость подарка: {gift.GetTotalPrice()} руб");
+        
+        gift.SaveToJson("gift.json");
+
+        Gift loadedGift = GiftExtensions.LoadFromJson("gift.json");
+        
+        Console.WriteLine("Информация о сладостях в подарке после работы с json:");
+        foreach (var element in loadedGift.GetSweetsInfo())
+        {
+            Console.WriteLine(element);
+        }
     }
+    
 }

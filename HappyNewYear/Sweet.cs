@@ -1,9 +1,9 @@
 namespace HappyNewYear;
 
 /// <summary>
-/// базовый абстрактный класс Сладость
+/// базовый класс Сладость
 /// </summary>
-public abstract class Sweet
+public class Sweet
 {
     /// <summary>
     /// поля Имя Вес Цена
@@ -25,11 +25,14 @@ public abstract class Sweet
         Weight = weight;
         Price = (int)price;
     }
-    
+
     /// <summary>
-    /// абстрактный метод вывода инфы о сладости
+    /// метод вывода инфы о сладости
     /// реализуем в классах-наследниках
     /// </summary>
     /// <returns></returns>
-    public abstract string GetInfo();
+    public virtual string GetInfo()
+    {
+        return " ";
+    }
 }
